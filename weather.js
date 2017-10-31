@@ -34,11 +34,6 @@ let updateWeather = function(dataFromService) {
 let linktoweather=  document.getElementById("get_forecast")
 linktoweather.addEventListener("click", getWeather);
 
-let displayError = function(error) {
-  console.debug(error);
-  window.alert("Houston, we have a problem.");
-}
-
 // HINT:
 // Weather icon example: http://openweathermap.org/img/w/10d.png
 // The very last part ('10d.png') can change based on the current conditions.
